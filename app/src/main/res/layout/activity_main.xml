@@ -29,5 +29,15 @@
         android:textAlignment="center"
         android:padding="3.5mm"/>
 
+    <ImageButton
+        android:id="@+id/addButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitCenter"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
 
 </RelativeLayout>
